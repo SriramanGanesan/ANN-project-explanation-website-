@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Artificial intelligence</title>
+	<link rel="stylesheet" type="text/css" href="decorations.css">
+</head>
+<body>
+	<h1 > OFFENSIVE COMMENTS DETECTION FOR TAMIL-ENGLISH LANGUAGES IN SOCIAL MEDIA COMMENTS USING ARTIFICIAL NEURAL NETWORKS</h1>
+	<br>
+	<br>
+	<br>
+<p><b>Nowadays online social media such as Instagram, YouTube, X and Facebook have become platforms to express emotions and feelings of people.  The growth of abusive content on social media is directly proportional to the rise of online social media. It is important to detect and reduce offensive content to maintain decency and affinity. A hateful, abusive, discriminatory, and threatening act that gives discomfort to gay, lesbian, transgender, or bisexual individuals is called Homophobia and Transphobia. Detecting homophobic and transphobic comments are concerning issues that contribute to an unsafe online platform. Analysing social media texts is a challenging task since users do not stick to any fixed patterns. Comments can be a combination of languages, written or oral, and do not contain any rules or grammar. In this study, we aim to present a solution for detecting homophobia and transphobia in social media comments using mBERT model. Our work strives to use code-mixed dataset (Tamil-English).  
+	<br><br><br><center><img src="temp.png" width="900"></center></p><br><br>
+	<u><h2>Introduction:</h2></u>
+		<p>	This research paper focuses on detecting and classifying Homophobic and Transphobic comments from social media platforms like YouTube, Instagram, X, Facebook. The authors discuss about the rise of social media usage due to internet, allowing users to share information and express their feelings on various fields, which gave the freedom of speech. But it made a platform where powerless individuals abuse and manipulate other lives because of their difference. The authors explain that Social media contains many undesirable content including sexist comments, racist, other than homophobic and transphobic threatening and abusing particular community or individuals which affects society in a large scale and influence people during events like protests and elections. The scope of the paper is adopt with the definition of homophobia and transphobia as showing negative attitude, insulting and disliking people who identify as gay or attracted to both men and women.</p><br><br>
+		<p>Though Natural language has made a great progress in detecting offensive text like homophobia and transphobia, it struggles to detect in various language, and faces challenges to find words in dictionary and to find the correct words due to change of spellings. Low resourced languages like Hindi, Malayalam, Tamil where the Lesbian, Gay, Bisexual, Transgender and Queer (LGBTQ+) is strongly disapproved, doesn’t contain any dataset for detecting those offensive comments. To overcome this, dataset has been prepared by the authors of the paper from YouTube comments, with different type of LGBTQ+ comments and its respective labels. The dataset is used for training the model and evaluated with test dataset</b></p><br>
+		<u><h2>Proposed Method:</h2></u>
+		<center><img src="archdig.jpg" width="800"></center>
+		<p>The dataset made in this paper is obtained from YouTube comments for Malayalam, Hindi and other low resourced languages. They we labelled as normal, transphobic, homophobic by annotators from LGBTQ+ community, who support them. Then the dataset is split into Training dataset and evaluation dataset containing 3000+ comments each.
+			This paper uses both transfer based deep learning model as well as traditional machine learning model for detecting homophobic and transphobic comments. Traditional machine learning models like -Logistic Regression (LR), Naïve Bayes(NB), Decision Tree (DT), Random Forest(RF), Support Vector Machine(SVM) were used for detecting and classifying the comments. Similarly, transfer based learning models like Robustly Optimized Bidirectional Encoder Representations from transformers (RoBERTa) Base, Large, Multilingual Bidirectional Encoder Representations from transformers (mBERT) uncased, Extensible Markup Language RoBERTa (XLM-RoBERTa) Small, and Large language model for evaluating and classifying comments into transphobic or homophobic or normal. </p><br>
+
+<u><h2>Explanation</h2></u>
+        <p>The proposed method includes to compare and analyse the homophobia and transphobia comments detection accuracy with various learning models according to the problem statement. 
+			The proposed method includes 8 machine learning models and a deep learning model, 9 models in total for detection, comparison and analysis of comments.
+			</p>	
+        <center><img src="Artificial-Intelligence.jpg" width="700"></center>
+        <h2>Machine learning models:</h2>
+        <form>
+        <div class="sample">
+        <ul>
+        	<li>Artificial Neural Network (ANN)</li>
+        	<li>K-Nearest Neighbors (KNN)</li>
+        	<li>Support Vector Machine (SVM)</li>
+        	<li>Logistic Regression (LR)</li>
+			<li>Naïve Bayes (NB)</li>
+        	<li>Decision Tree (DT)</li>
+        	<li>Random Forest (RF)</li>
+        	<li>Extreme Gradient Boosting (XGBoost)</li>
+			<li>mBert</li>
+        </ul></div></form>
+		<u><h2>Data collection</h2></u>
+        <p>A dataset was prepared by the authors of the base paper. The dataset includes different types of comments like homophobic, transphobic and normal comments obtained from YouTube comments, which was preprocessed and annotated by the LGBTQ+ community supporters. The data was divided into testing split and training split. The training and testing dataset contains 3862 and 1208 comments respectively, with three class labels as homophobic, normal and transphobic.</p>
+		<h2>Feature extraction</h2>
+		<p>Utilizing Term Frequency-Inverse Document Frequency (TF-IDF) as a feature extractor which helps to quantify the main words of the document by giving weights to each terms on the document. </p>
+        <form>
+        <div class="sample">
+        <ul>
+        	<li>The Term frequency calculates how frequently the words appear in document and the Inverse Document Frequency measures the importance of those words in the whole text. </li>
+        	<li>Combining the term frequency and inverse document frequency, the TF-IDF score is calculated, which serves as features in vector representation.</li>
+		</ul></div></form>
+		<u><h2>Train And Test The Model:</h2></u>
+		<p>The ANN model is trained using training dataset and then tested using the test dataset to determine the accuracy and detection capabilities.</p><br><br>
+        <hr>
+		<h2>For more details:</h2>
+        <form class="a">
+        	<div class="aa">
+        		<label>Name</label>
+        		<input type="text" name="n">
+        	</div>
+        	<div class="aa">
+        		<label>email</label>
+        		<input type="email" name="e">
+        	</div>
+        	<div class="aa">
+        		<label>message</label>
+        		<textarea name="n"></textarea> 
+        	</div>
+        	<div class="aa">
+        		<label>Submit</label>
+        		<input type="submit" name="c" class="button">
+        		
+        		<button on click="myfunction()";>button</button>
+        		<script>
+        		function myfunction(){
+        		    alert("you are using this website");
+        		}
+        	    </script>
+
+        	</div>
+        	
+        	
+        </form>
+        <div class="container1">
+        	<div class="box1">
+        		<h3>This article is made by:</h3>
+        		<p>Sriraman </p>
+        	</div>
+        
+        
+        	<div class="box1">
+        		<p>Dhayananth </p>
+        	</div>
+        
+        
+        	<div class="box2">
+        		<p>chandru </p>
+        	</div>
+        </div>
+        <h3>. . . . . . The end . . . . . .</h3>
+</body>
+</html>

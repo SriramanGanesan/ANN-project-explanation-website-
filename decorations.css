@@ -1,0 +1,58 @@
+h1{
+	color: #FDFBF9 ;
+	border:#FF7400  10px solid ;
+	 border-radius: 30px;
+	 font-family:Trebuchet MS; 
+	 text-align: center;
+}
+html{
+	background: #0E0D0D   ;
+	margin:20px;
+	
+    }
+    p{
+    	color:  #FF8300 ;
+    	font-weight: bold;
+    	font-family: papyrus;
+    	font-size: 20px;
+    	padding: 10px;
+	padding-bottom: 1px;
+    }
+    h2{
+        color: #FDFBF9; 
+        border-left: #F9051F  15px solid ;
+    	font-family: Bahnschrift;
+    	text-underline-position: right;
+
+    }
+    .sample li{
+    	color: #FF8300;
+    	margin-left: 100px;
+    	font-weight: bold;
+    	font-family: papyrus;
+    	list-style-position: center;
+    }
+    .aa{
+    	margin-left: 40px;
+    	color: #FF8300;
+    	font-family: Century Gothic;
+    	font-weight: bold;
+    	padding: 20px;
+    }
+    .a label{
+    	display: block;
+    }
+    h3{
+    	color: white;
+    	font-family: Copperplate Gothic Light;
+    	font-weight: bold;
+    	text-align: center;
+    }
+    <style>
+    .container1<div{
+    	padding: 10px;
+    }
+    container1{
+    	display: flex;
+    }
+    </style>
